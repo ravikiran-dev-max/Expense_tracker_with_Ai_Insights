@@ -1,0 +1,24 @@
+{
+  "name": "expense-tracker-root",
+  "version": "1.0.0",
+  "description": "Root configuration and management scripts for MERN Expense-Tracker with AI Insights",
+  "private": true,
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install-all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "dev": "npx -y concurrently --kill-others \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "keywords": [
+    "expense-tracker",
+    "mern",
+    "ollama",
+    "gemini"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}
