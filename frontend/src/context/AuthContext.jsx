@@ -18,7 +18,7 @@ export const useAuth = () => {
 
 // Central API Base URL endpoint configuration
 // Evaluates VITE_API_BASE from environments (for production hosting) or defaults to local server port
-export const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api';
+export const API_BASE = import.meta.env.VITE_API_BASE || 'https://expense-tracker-with-ai-insights-1.onrender.com/api';
 
 /**
  * Context Provider Component wrapping the application to share session state
