@@ -122,7 +122,7 @@ const Navbar = ({ onMenuToggle }) => {
               </div>
               {/* Dynamic Branding Text (stable release indicator) */}
               <span className="bg-gradient-to-r from-white to-slate-400 bg-clip-text text-xl font-bold tracking-tight text-transparent">
-                24eg105p04`s`
+                EXpense Tracker`
               </span>
             </Link>
           </div>

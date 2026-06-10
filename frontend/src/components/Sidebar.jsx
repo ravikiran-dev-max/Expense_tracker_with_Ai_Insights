@@ -54,6 +54,7 @@ const Sidebar = ({ isOpen, onClose }) => {
                 </li>
               );
             })}
+            
           </ul>
         </div>
 
